@@ -18,7 +18,7 @@ class MainController extends Controller
             })
             ->with('departmentD:id,name', 'embassy:id,name', 'dipservices:id,name')
             ->select('id','department_id','embassies_id', 'dipservices_id','name', 'lastname','nasab','dastgoh','mobili')
-            ->where('sobiq', 0)
+            ->where('sobiq', '0')
             ->latest()
             ->paginate(10)
             ->withQueryString();

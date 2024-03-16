@@ -39,19 +39,9 @@ export default {
         <p class="text-center text-xl mb-12 hover:text-blue-400">Намояндагиҳои дипломатии Тоҷикистон дар хориҷа</p>
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
             <div class="flex justify-between pb-4 mx-1 dark:bg-gray-900 flex justify-end items-center">
-                <!-- <div
-                     class=""
-                 >
-                     <select id="underline_select" class="ml-2 block py-2.5 px-0 w-full text-sm text-gray-500 bg-transparent border-0 border-b-2 border-gray-200 appearance-none dark:text-gray-400 dark:border-gray-700 focus:outline-none focus:ring-0 focus:border-gray-200 peer">
-                         <option selected>Интихоби раёсат </option>
-                         <option
-                             v-for="ray of dep"
-                             :key="ray.id"
-                             value="{{ray.id}}">{{ ray.name }}</option>
-                     </select>
-                 </div>  -->
+                
                 <div
-                    class="w-1/3 block  text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                    class="w-2/5 block  text-sm text-gray-900 border border-gray-300 rounded-lg w-80 bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                     <VueMultiselect
                         v-model="namoyandagi"
                         :options="emb"
