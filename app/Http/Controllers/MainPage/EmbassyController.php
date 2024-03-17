@@ -27,7 +27,7 @@ class EmbassyController extends Controller
             ->with('embassy:id,name')
             ->where('dastgoh', '3')
             ->latest()
-            ->paginate(20)
+            ->paginate(10)
             ->withQueryString();
         $emb=Embassy::query()
             ->select('id', 'name')

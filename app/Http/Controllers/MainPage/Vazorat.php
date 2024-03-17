@@ -22,7 +22,7 @@ class Vazorat extends Controller
             })
             ->where('dastgoh', '1')
             ->latest()
-            ->paginate(20)
+            ->paginate(12)
             ->withQueryString();
         $searchlist = $request->only(['search']);
         $dep = Department::query()

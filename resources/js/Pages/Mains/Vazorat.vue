@@ -37,7 +37,8 @@ export default {
 </script>
 
 <template>
-    <div class="text-4xl text-white font-semibold mt-12">
+    <div class="text-4xl text-white font-semibold mt-6">
+        <p class="text-center text-xl mb-8 hover:text-blue-400">Дастгоҳи марказӣ</p>
         <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
             <div class="flex justify-between mx-1 dark:bg-gray-900 flex justify-end items-center">
                 <div
@@ -94,7 +95,7 @@ export default {
             <table class="w-full text-sm text-left rtl:text-right dark:text-gray-400">
                 <thead class="text-xs  uppercase bg-gray-600  dark:bg-gray-700 dark:text-gray-400">
                 <tr>
-                    <th scope="col" class="px-6 py-3 ">
+                    <th scope="col" class="px-6 py-3 whitespace-nowrap">
                         Ному насаб
                     </th>
                     <th scope="col" class="px-6 py-3">

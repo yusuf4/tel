@@ -25,7 +25,7 @@ class DipserviceController extends Controller
             ->with('departmentD:id,name')
             ->where('dastgoh', '2')
             ->latest()
-            ->paginate(20)
+            ->paginate(10)
             ->withQueryString();
         $dip=Dipservice::query()
             ->select('id', 'name')

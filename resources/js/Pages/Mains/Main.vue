@@ -51,7 +51,7 @@ export default {
                         <div class="md:flex md:items-center md:gap-12 text-white">
                             <nav aria-label="Global" class="hidden md:block">
                                 <ul
-                                    class="flex items-center gap-6 text-sm text-white">
+                                    class="flex items-center gap-6 text-base text-white">
                                     <li>
                                         <Link
 
@@ -61,7 +61,7 @@ export default {
                                             Асоси
                                         </Link>
                                     </li>
-                                    <li>
+                                    <li class="">
                                         <Link class="text-gray-500 transition hover:text-blue-300 text-white"
                                               :href="route('vazorat')">
                                             Дастгоҳи марказӣ
@@ -115,10 +115,10 @@ export default {
             </header>
         </div>
         <!-- Main content -->
-       <div class="h-screen w-full bg-blue-300 bg-center bg-cover mt-[-60px] opacity-100"
-            style="background-image: url('/image/bg2.jpg')">
+       <div class="h-screen w-full bg-center bg-gray-700 mt-[-60px]"
+            >
             <div class="h-full w-full mt-12 flex justify-center">
-                <div class="bg-gray-300 h-[340px] w-1/3  mt-32 rounded-lg opacity-40 px-8 overflow-y-auto">
+                <div class="bg-gray-100 h-[340px] w-1/3  mt-32 rounded-lg opacity-40 px-8 overflow-y-auto">
                     <p class="text-2xl text-black text-center font-semibold my-4 opacity-100">Ҷустуҷуи шахс </p>
                     <div class="relative mt-4 sticky top-0">
 

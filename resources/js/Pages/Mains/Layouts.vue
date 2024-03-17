@@ -100,8 +100,8 @@ export default {
             </header>
         </div>
         <!-- Main content -->
-        <div class="h-screen w-full bg-center bg-cover mt-[-60px] relative"
-             style="background-image: url('/image/bg2.jpg'); opacity: 0.9">
+        <div class="h-screen w-full bg-center bg-gray-700 mt-[-60px] relative"
+             >
             <div class="h-full w-full pt-12 absolute opacity-100">
                 <slot></slot>
             </div>
